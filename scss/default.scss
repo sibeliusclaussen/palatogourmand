@@ -6,6 +6,8 @@
 @import "compass/css3/transition";
 @import "fonts";
 
+
+
 html, body {
 	overflow-x: hidden;
 	max-width: 100%;
@@ -20,12 +22,11 @@ body {
 	width: 1024px;
 	margin: auto;
 }
-
-.active{
-	display: block;
-}
 .hide{
 	display: none;
+}
+.active{
+	display: block;
 }
 
 %button{
@@ -49,12 +50,13 @@ body {
 }
 %headline-image{
 	@extend %background-slide;
+	background-size: 100% 690px;
 	height: 620px;
 	z-index: 10;
 }
 
 %headline-font{
-	font-family: 'DaxBold';
+	font-family: 'DaxBold', 'Titillium Web', sans-serif;
 	text-align: center;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -332,6 +334,10 @@ main{
 						font-family: 'Museo300Regular';
 						color: #66493d;
 						font-weight: 300;
+						font-size: 13px;
+						padding: 0 3px;
+						width: 160px;
+						margin-top: -3px;
 					}
 					&.active, &:hover{
 						border: 2px solid #e7e7e7;
@@ -344,27 +350,47 @@ main{
 				float: right;
 				h4{
 					@extend %headline-span;
-					font-size: 28px;
+					font-size: 24px;
 					text-transform: uppercase;
 					color:#b7db5b;
+					width: 700px;
+					margin: auto;
 				}
 				.product-image{
 					position: relative;
 					top: 30px;
 					left: 50px;
 					text-align: left;
+					width: 270px;
 					float: left;
 					img{
 						max-width: 100%;
 						max-height: 570px;
+						text-align: center;
+						margin: auto;
 					}
 				}
 				.information{
 					position: relative;
-					left: 40px;
-					top: 130px;
+					left: -40px;
+					top: 40px;
+					width: 350px;
+					float: right;
 					font-family: 'Museo300Regular';
 					color: #adadad;
+					p{
+						width: 320px;
+						font-size: 16px;
+						text-align: left;
+						border: 2px solid #e7e7e7;
+						padding: 15px;
+						margin-bottom: 20px; 
+						// margin-left: 
+					}
+					.technique-information{
+						@include transition(margin-top 500ms);
+						
+					}
 					h6{
 						font-family: 'Museo500Regular';
 						font-size: 19px;
@@ -373,12 +399,13 @@ main{
 					}
 					table { 
 						position: relative;
-						left: 95px;
+						// left: 95px;
 						margin-top: 20px;
-						width: 330px;	
+						font-size: 14px;
+						width: 350px;	
 
 						tr{
-							height: 40px;	
+							height: 30px;	
 							th{
 							}
 							td {
@@ -389,12 +416,13 @@ main{
 					}
 					.more-details-button{
 						@extend %button;
-						width: 330px;
+						width: 350px;
 						padding: 14px 0;
-						margin-right: 98px;
+						// margin-right: 98px;
 						margin-top: 20px;
 						float: right;	
 					}
+
 				}
 			}
 		}
@@ -417,18 +445,15 @@ main{
 		}
 		.headline-image-1{
 			@extend %headline-image;
-			background: url('../images/headline-phrase-1.jpg');
-			background-size: 100% 620px;
+			background-image: url('../images/headline-phrase-1.jpg');
 		}
 		.headline-image-2{
 			@extend %headline-image;
-			background: url('../images/headline-phrase-2.jpg');
-			background-size: 100% 620px;
+			background-image: url('../images/headline-phrase-2.jpg');
 		}
 		.headline-image-3{
 			@extend %headline-image;
-			background: url('../images/headline-phrase-3.jpg');
-			background-size: 100% 620px;
+			background-image: url('../images/headline-phrase-3.jpg');
 		}
 	}
 }

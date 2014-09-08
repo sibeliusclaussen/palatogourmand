@@ -2,20 +2,217 @@ $(function(){
 	var 
 	$productsList = $('.products-list'),
 	$productsContent = $('.products-content'),
+	$headlines = $('.headline-image-1, .headline-image-2, .headline-image-3'),
 	products = [
 		// Here put the produtcs separated with commas 
 		{
-			title: "Azeite de Oliva 8 Cocina",
-			image: "../images/products/Azeite-8-Cocina-Transparente.png",
+			title: "Azeite de Oliva Oito Cocina 5L",
+			image: "images/products/azeite-oito-cocina-5L.png",
+			description: "Um azeite de oliva virgem desenvolvido por agrônomos, chefs de cozinha e produtores rurais para cozinheiros profissionais. Contento altos níveis de antioxidantes chamados polifenois, e um azeite de oliva para o dia a dia, indicado para fritar, marinar e até para mesa. Apresenta aromas de azeitonas frescas, levemente frutado com algumas notas de folhas. Nas boca e muito equilibrado.",
 			information: {
-				"Unidades/caixas": "3",
+				"Unidades/caixas" : "3",
 				"Peso": "14.2Kg",
 				"Altura": "36.5cm",
 				"Largura": "47cm",
 				"Comprimento": "16.5cm",
-				"Caixas": "32"
+				"Caixas": "32",
 			}
-		}
+		},
+		{
+			title: "Azeite de Oliva Oito Cocina 1L",
+			image: "images/products/azeite-model-em-breve.jpg",
+			description: "Um azeite de oliva virgem desenvolvido por agrônomos, chefs de cozinha e produtores rurais para cozinheiros profissionais. Contento altos níveis de antioxidantes chamados polifenois, e um azeite de oliva para o dia a dia, indicado para fritar, marinar e até para mesa. Apresenta aromas de azeitonas frescas, levemente frutado com algumas notas de folhas. Nas boca e muito equilibrado.",
+			information: {
+				"<img src=images/icons/icon-em-breve.jpg>":""
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Orgânico",
+			image: "images/products/azeite-oito-organico-250.jpg",
+			description: "Um azeite de oliva extra virgem oficialmente certificado orgânico e produzido com 100% de azeitonas picual nos arredores da cidade de Jaen no sul da Espanha. E o resultado de colheitas no mês de janeiro. Um azeite de oliva aromático, possui notas de suco fresco de azeitonas,figueiras e orvalho.",
+			information: {
+				"Unidades/caixas": "15",
+				"Peso": "7.7Kg / 250mL",
+				"Altura": "24cm",
+				"Largura": "27cm",
+				"Comprimento": "16.5cm",
+				"Caixas/pallet": "114",
+			}
+		},
+		{
+			title: "Azeite de oliva Oito Seleccion Cuquillo",
+			image: "images/products/azeite-oito-sellecion-cuquillo-250.jpg",
+			description: "Um azeite de oliva extra virgem produzido 100% com as raras azeitonas cultivadas na região central espanhola de Múrcia, chamadas azeitonas Cuquillo. E um azeite de oliva verde, com notas de alcachofras maduras e azeitonas avermelhadas. Ideal para saladas, peixes e para finalização. Ligeiramente amargo.",
+			information: {
+				"Unidades/caixas": "15",
+				"Peso": "7.7Kg / 250mL",
+				"Altura": "24cm",
+				"Largura": "27cm",
+				"Comprimento": "16.5cm",
+				"Caixas/pallet": "114",
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Seleccion Colheita Verde",
+			image: "images/products/azeite-oito-sellecion-verde-250.png",
+			description: "Um azeite de oliva extra virgem sensacional, menos filtrado, produzido principalmente com azeitonas da variedade Hojiblanca cultivadas na região de Cordoba na Espanha. Apresentando um frutado intenso com notas de frutas maduras, possui aromas de maças, banana e amêndoas. Na boca e equilibrado, cremoso e persistente.",
+			information: {
+				"Unidades/caixas": "15",
+				"Peso": "7.7Kg / 250mL",
+				"Altura": "24cm",
+				"Largura": "27cm",
+				"Comprimento": "16.5cm",
+				"Caixas/pallet": "114",
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Seleccion Colheita de Inverno",
+			image: "images/products/azeite-oito-sellecion-inverno-250.png",
+			description: "Azeite de oliva extra virgem extraordinário, apresentado pela primeira vez no Brasil. As deliciosas azeitonas Manzanilla Carcerenha. Produzido para participar de concursos sensoriais em Cacere na Espanha, possui notas de casca de banana, tomates e ervas.",
+			information: {
+				"Unidades/caixas": "15",
+				"Peso": "7.7Kg / 250mL",
+				"Altura": "24cm",
+				"Largura": "27cm",
+				"Comprimento": "16.5cm",
+				"Caixas/pallet": "114",
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Seleccion Portugal",
+			image: "images/products/azeite-model-em-breve.jpg",
+			description: "<img src=images/icons/icon-em-breve.jpg>",
+			information: {			
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Andalucia",
+			image: "images/products/azeite-oito-andalucia-1L.jpg",
+			description: "Um azeite de oliva clássico espanhol, produzido com as azeitonas Picual, Hojiblanca e um toque de Arbequina. Contém notas de amendoas e azeitonas molhadas. Na boca é persistente, vegetal e longo.",
+			information: {
+				"Unidades/caixas": "12",
+				"Peso": "10.6Kg / 500mL",
+				"Altura": "29cm",
+				"Largura": "20cm",
+				"Comprimento": "26cm",
+				"Caixas / pallet": "114",
+			}
+		},
+		{
+			title: "Azeite de Oliva Oito Mini",
+			image: "images/products/azeite-oito-mini-20.png",
+			description: "Um azeite de oliva desenvolvido especialmente para hoteis e serviços de entrega. Um monovarietal produzido com 100% com azeitonas Hojiblanca. Possui uma intensidade média e a presença de notas de folhas. Delicioso e equilibrado na boca.",
+			information: {
+				"Unidades/caixas": "266",
+				"Peso": "25g / 20mL",
+				"Altura": "8cm",
+				"Largura": "2cm",
+				"Comprimento": "2cm",
+				"Caixas / pallet": "80",
+			}
+		}	
+		// {
+		// 	title: "Arroz Espanhol Oito Bomba",
+		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "1Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Farinha de Amendôas Espanholas Oito",
+		// 	image: "images/products/azeite-model-em-breve.jpg",
+		// 	description: "",
+		// 	information: {
+		// 		"<img src=images/icons/icon-em-breve.jpg>":""			
+		// 	}
+		// },
+		// {
+		// 	title: "Fideos Tradicionais Espanhois Oito",
+		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "14.2Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Nozes Pecan Oito",
+		// 	image: "images/products/nozes-pecan.jpg",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "500g",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Baunilha de Madagascar",
+		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "14.2Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Baunilha de Uganda",
+		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "14.2Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Garrafas de Mesa Oito, Serigrafadas",
+		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "14.2Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// },
+		// {
+		// 	title: "Vieras Nativas da Ilha Grande / RJ",
+		// 	image: "images/products/vieiras-nativas.jpg",
+		// 	description: "",
+		// 	information: {
+		// 		"Unidades/caixas": "3",
+		// 		"Peso": "14.2Kg",
+		// 		"Altura": "36.5cm",
+		// 		"Largura": "47cm",
+		// 		"Comprimento": "16.5cm",
+		// 		"Caixas": "32",
+		// 	}
+		// }
+
+
+
 	],
 	productThumbnailTemplate = function(product){
 		return "<a href='#' class='product-thumbnail'>"+
@@ -30,8 +227,11 @@ $(function(){
                 '<img src="'+product.image+'">'+
             '</div>'+
             '<div class="information">'+
-            	'<h6>Informações técnicas da caixa:</h6>'+
-            	productInformationTableTemplate(product.information)+
+            	'<p>'+product.description+'</p>'+
+            	'<div class="tecnique-information hide">'+
+	            	'<h6>Informações técnicas da caixa:</h6>'+
+	            	productInformationTableTemplate(product.information)+
+	            '</div>'+
             	'<a href="'+product.href+'" class="more-details-button"> + Detalhes </a>'+
             '</div>'+
         '</div>';
@@ -42,10 +242,10 @@ $(function(){
 		})+'</table>';
 	};
 
-	//Faking more products, exclude before put the new products
-	for(var i = 0; i < 3; i++){
-		products = products.concat(products);
-	}
+	//For more products, exclude or hide this before ( This is a faking products to test)
+	// for(var i = 0; i < 3; i++){
+	// 	products = products.concat(products);
+	// }
 
 	$.each(products,function(i,product){
 		var $thumb = $(productThumbnailTemplate(product)),
@@ -79,11 +279,11 @@ $(function(){
 
 	// Melhorar isso para n nao depender do tamanho da tela
 	$(window).scroll(function(){
-		$('.headline-image-1, .headline-image-2, .headline-image-3').each(function(){
-			var bottom = $(window).scrollTop() + $(window).height(),
+		$headlines.each(function(){
+			var bottom = $(window).scrollTop(),
 				hiTop = $(this).offset().top;
-			$(this).css('background-position','0 '+(-80+(bottom-hiTop)/8)+'px');	
-		})
+			$(this).css('background-position','0 '+((bottom-hiTop)/3)+'px');	
+		});
 	});
 
 	//Check to see if the window is top if not then display button
@@ -109,4 +309,10 @@ $(function(){
             scrollTop: $anchor.offset().top - $anchor.attr('data-section')
         }, 500);        
     });
+
+	$('.more-details-button').click(function(){
+		$('.tecnique-information').fadeToggle();
+		$('.more-details-button').css({'content':'- Detalhes'});
+		return false;
+	});
 });
