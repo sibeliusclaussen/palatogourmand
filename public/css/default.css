@@ -1,3 +1,4 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web:700);
 /* line 5, ../../../../../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -147,18 +148,19 @@ main .headline .headline-image-1, main .headline .headline-image-2, main .headli
   background-size: contain;
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 670px;
+  min-width: 100%;
+  min-height: 670px;
 }
 
 /* line 51, ../../scss/default.scss */
 main .headline .headline-image-1, main .headline .headline-image-2, main .headline .headline-image-3 {
-  background-size: 100% 690px;
-  height: 620px;
+  background-position: center middle;
+  background-size: auto 690px;
+  min-height: 620px;
   z-index: 10;
 }
 
-/* line 58, ../../scss/default.scss */
+/* line 59, ../../scss/default.scss */
 h1, h2, h3 {
   font-family: 'DaxBold', 'Titillium Web', sans-serif;
   text-align: center;
@@ -166,44 +168,44 @@ h1, h2, h3 {
   text-transform: uppercase;
 }
 
-/* line 64, ../../scss/default.scss */
+/* line 65, ../../scss/default.scss */
 h1 span, h2 span, main .content.products .content-slider .products-content h4 {
   font-family: 'Museo300Regular';
   font-size: 40px;
   text-transform: none;
 }
 
-/* line 70, ../../scss/default.scss */
+/* line 71, ../../scss/default.scss */
 h1 {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px, rgba(0, 0, 0, 0.7) 0px 1px 4px;
   font-size: 52px;
   line-height: 1.0em;
 }
-/* line 75, ../../scss/default.scss */
+/* line 76, ../../scss/default.scss */
 h1 span {
   font-size: 40px;
 }
 
-/* line 81, ../../scss/default.scss */
+/* line 82, ../../scss/default.scss */
 h2 {
   text-shadow: rgba(255, 255, 255, 0.25) 0px 1px 0px, rgba(0, 0, 0, 0.5) 0px 1px 4px;
   font-size: 64px;
   line-height: 0.8em;
 }
-/* line 86, ../../scss/default.scss */
+/* line 87, ../../scss/default.scss */
 h2 span {
   font-size: 56px;
   color: #000;
   text-shadow: rgba(0, 0, 0, 0.25) 0px 1px 0px;
 }
 
-/* line 94, ../../scss/default.scss */
+/* line 95, ../../scss/default.scss */
 h3 {
-  font-size: 36px;
+  font-size: 32px;
   color: #66493d;
 }
 
-/* line 100, ../../scss/default.scss */
+/* line 101, ../../scss/default.scss */
 p {
   font-family: 'Museo300Regular';
   width: 800px;
@@ -213,17 +215,17 @@ p {
   margin: auto;
   color: #66493d;
 }
-/* line 108, ../../scss/default.scss */
+/* line 109, ../../scss/default.scss */
 p b {
   font-family: 'Museo700Regular';
 }
 
-/* line 112, ../../scss/default.scss */
+/* line 113, ../../scss/default.scss */
 a {
   font-family: 'Museo500Regular';
 }
 
-/* line 116, ../../scss/default.scss */
+/* line 117, ../../scss/default.scss */
 header {
   position: absolute;
   top: 50px;
@@ -231,27 +233,27 @@ header {
   right: 0;
   z-index: 1;
 }
-/* line 122, ../../scss/default.scss */
+/* line 123, ../../scss/default.scss */
 header nav {
   margin: 40px 20px;
   font-family: 'Museo500Regular';
   font-size: 16px;
   float: right;
 }
-/* line 127, ../../scss/default.scss */
+/* line 128, ../../scss/default.scss */
 header nav a {
   margin-right: 25px;
   color: #999;
   text-decoration: none;
 }
-/* line 131, ../../scss/default.scss */
+/* line 132, ../../scss/default.scss */
 header nav a:hover {
   color: #888;
 }
 
-/* line 142, ../../scss/default.scss */
+/* line 143, ../../scss/default.scss */
 .logo-brand {
-  background: url(../images/logo-palato.png);
+  background: url("../images/landing-page/logo-palato.png");
   width: 274px;
   height: 90px;
   display: block;
@@ -260,28 +262,27 @@ header nav a:hover {
   margin-left: 10px;
 }
 
-/* line 152, ../../scss/default.scss */
+/* line 153, ../../scss/default.scss */
 .slider {
   position: relative;
   height: 670px;
   z-index: 0;
   overflow: hidden;
 }
-/* line 158, ../../scss/default.scss */
+/* line 159, ../../scss/default.scss */
 .slider h1 {
   position: relative;
   z-index: 1000;
   top: 45%;
 }
-/* line 163, ../../scss/default.scss */
+/* line 164, ../../scss/default.scss */
 .slider .arrow-down {
-  background: url("../images/icons/arrow-down.svg") no-repeat;
+  background: url("../images/landing-page/icons/arrow-down.svg") no-repeat;
   position: relative;
   display: block;
   top: -100px;
-  width: 14px;
-  height: 8px;
-  transform: scale(4);
+  width: 60px;
+  height: 36px;
   z-index: 1000;
   margin: auto;
 }
@@ -295,7 +296,7 @@ header nav a:hover {
 /* line 180, ../../scss/default.scss */
 .slider .slides img {
   position: absolute;
-  min-width: none;
+  min-width: 100%;
   top: 0;
   left: 0;
   z-index: 8;
@@ -419,41 +420,48 @@ main .content.products .content-slider .products-slider {
   position: relative;
   overflow: hidden;
   float: left;
-  height: 600px;
+  height: 580px;
   width: 200px;
   padding: 15px;
   border-right: 2px solid #e7e7e7;
 }
 /* line 297, ../../scss/default.scss */
-main .content.products .content-slider .products-slider .arrow-list-before {
+main .content.products .content-slider .products-slider .arrow-list {
   position: absolute;
-  left: -10px;
-  content: url("../images/icons/mini-arrow-up.svg") no-repeat;
-  transform: scale(4);
+  left: 0;
+  right: 0;
+  margin-left: 92px;
+  cursor: pointer;
+  z-index: 100;
+  display: block;
+}
+/* line 307, ../../scss/default.scss */
+main .content.products .content-slider .products-slider .arrow-list.before {
   top: 0;
+  content: url("../images/landing-page/icons/mini-arrow-up.svg") no-repeat;
 }
-/* line 305, ../../scss/default.scss */
-main .content.products .content-slider .products-slider .arrow-list-after {
-  position: absolute;
-  left: -10px;
-  content: url("../images/icons/mini-arrow-down.svg") no-repeat;
-  transform: scale(4);
+/* line 311, ../../scss/default.scss */
+main .content.products .content-slider .products-slider .arrow-list.after {
   bottom: 0;
+  content: url("../images/landing-page/icons/mini-arrow-down.svg") no-repeat;
 }
-/* line 314, ../../scss/default.scss */
+/* line 316, ../../scss/default.scss */
 main .content.products .content-slider .products-list {
   -moz-transition: margin-top 500ms;
   -o-transition: margin-top 500ms;
   -webkit-transition: margin-top 500ms;
   transition: margin-top 500ms;
   position: absolute;
+  height: 500px;
+  margin-top: 18px;
 }
-/* line 317, ../../scss/default.scss */
+/* line 322, ../../scss/default.scss */
 main .content.products .content-slider .products-list .product-thumbnail {
   position: relative;
+  top: 0px;
   width: 170px;
   height: 170px;
-  margin: 0 0 35px;
+  margin-bottom: 25px;
   display: block;
   float: left;
   -moz-border-radius: 8px;
@@ -463,13 +471,13 @@ main .content.products .content-slider .products-list .product-thumbnail {
   text-decoration: none;
   border: 2px solid #fff;
 }
-/* line 328, ../../scss/default.scss */
+/* line 334, ../../scss/default.scss */
 main .content.products .content-slider .products-list .product-thumbnail img {
   padding: 5px;
   max-width: 100%;
   max-height: 120px;
 }
-/* line 333, ../../scss/default.scss */
+/* line 339, ../../scss/default.scss */
 main .content.products .content-slider .products-list .product-thumbnail h5 {
   font-family: 'Museo300Regular';
   color: #66493d;
@@ -479,16 +487,16 @@ main .content.products .content-slider .products-list .product-thumbnail h5 {
   width: 160px;
   margin-top: -3px;
 }
-/* line 342, ../../scss/default.scss */
+/* line 348, ../../scss/default.scss */
 main .content.products .content-slider .products-list .product-thumbnail.active, main .content.products .content-slider .products-list .product-thumbnail:hover {
   border: 2px solid #e7e7e7;
 }
-/* line 348, ../../scss/default.scss */
+/* line 354, ../../scss/default.scss */
 main .content.products .content-slider .products-content {
   width: 792px;
   float: right;
 }
-/* line 351, ../../scss/default.scss */
+/* line 357, ../../scss/default.scss */
 main .content.products .content-slider .products-content h4 {
   font-size: 24px;
   text-transform: uppercase;
@@ -496,7 +504,7 @@ main .content.products .content-slider .products-content h4 {
   width: 700px;
   margin: auto;
 }
-/* line 359, ../../scss/default.scss */
+/* line 365, ../../scss/default.scss */
 main .content.products .content-slider .products-content .product-image {
   position: relative;
   top: 30px;
@@ -505,14 +513,14 @@ main .content.products .content-slider .products-content .product-image {
   width: 270px;
   float: left;
 }
-/* line 366, ../../scss/default.scss */
+/* line 372, ../../scss/default.scss */
 main .content.products .content-slider .products-content .product-image img {
   max-width: 100%;
   max-height: 570px;
   text-align: center;
   margin: auto;
 }
-/* line 373, ../../scss/default.scss */
+/* line 379, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information {
   position: relative;
   left: -40px;
@@ -522,7 +530,7 @@ main .content.products .content-slider .products-content .information {
   font-family: 'Museo300Regular';
   color: #adadad;
 }
-/* line 381, ../../scss/default.scss */
+/* line 387, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information p {
   width: 320px;
   font-size: 16px;
@@ -531,100 +539,103 @@ main .content.products .content-slider .products-content .information p {
   padding: 15px;
   margin-bottom: 20px;
 }
-/* line 390, ../../scss/default.scss */
+/* line 396, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information .technique-information {
   -moz-transition: margin-top 500ms;
   -o-transition: margin-top 500ms;
   -webkit-transition: margin-top 500ms;
   transition: margin-top 500ms;
 }
-/* line 394, ../../scss/default.scss */
+/* line 400, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information h6 {
   font-family: 'Museo500Regular';
   font-size: 19px;
   color: #adadad;
   text-transform: uppercase;
 }
-/* line 400, ../../scss/default.scss */
+/* line 406, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information table {
   position: relative;
   margin-top: 20px;
   font-size: 14px;
   width: 350px;
 }
-/* line 407, ../../scss/default.scss */
+/* line 413, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information table tr {
   height: 30px;
 }
-/* line 411, ../../scss/default.scss */
+/* line 417, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information table tr td {
   text-align: right;
   color: #b7db5b;
 }
-/* line 417, ../../scss/default.scss */
+/* line 423, ../../scss/default.scss */
 main .content.products .content-slider .products-content .information .more-details-button {
   width: 350px;
   padding: 14px 0;
   margin-top: 20px;
   float: right;
 }
-/* line 431, ../../scss/default.scss */
+/* line 437, ../../scss/default.scss */
 main .content.brands .brands-images {
   position: relative;
   top: -50px;
 }
-/* line 436, ../../scss/default.scss */
+/* line 442, ../../scss/default.scss */
 main .headline {
   position: relative;
   margin-top: 50px;
   background: #666;
   height: 620px;
 }
-/* line 441, ../../scss/default.scss */
+/* line 447, ../../scss/default.scss */
 main .headline .headline-title {
   position: relative;
   top: 265px;
   z-index: 100;
 }
-/* line 446, ../../scss/default.scss */
+/* line 452, ../../scss/default.scss */
 main .headline .headline-image-1 {
-  background-image: url("../images/headline-phrase-1.jpg");
+  background-image: url("../images/landing-page/headline-phrase-1.jpg");
+  background-position: center middle;
 }
-/* line 450, ../../scss/default.scss */
+/* line 457, ../../scss/default.scss */
 main .headline .headline-image-2 {
-  background-image: url("../images/headline-phrase-2.jpg");
+  background-image: url("../images/landing-page/headline-phrase-2.jpg");
+  background-position: center middle;
 }
-/* line 454, ../../scss/default.scss */
+/* line 462, ../../scss/default.scss */
 main .headline .headline-image-3 {
-  background-image: url("../images/headline-phrase-3.jpg");
+  background-image: url("../images/landing-page/headline-phrase-3.jpg");
+  background-position: center middle;
 }
 
-/* line 461, ../../scss/default.scss */
+/* line 470, ../../scss/default.scss */
 footer {
   border-top: solid 2px #e7e7e7;
   position: relative;
   height: 320px;
   margin-top: -50px;
 }
-/* line 466, ../../scss/default.scss */
+/* line 475, ../../scss/default.scss */
 footer nav {
   position: relative;
   top: 60px;
 }
-/* line 469, ../../scss/default.scss */
+/* line 478, ../../scss/default.scss */
 footer nav .footer-social {
   float: left;
   margin-top: 115px;
   margin-left: 20px;
 }
-/* line 473, ../../scss/default.scss */
+/* line 482, ../../scss/default.scss */
 footer nav .footer-social h5 {
   font-family: 'Museo300Regular';
   color: #bababa;
   font-size: 14px;
   padding-bottom: 10px;
 }
-/* line 479, ../../scss/default.scss */
+/* line 488, ../../scss/default.scss */
 footer nav .footer-social a {
   background: #ddd7d4;
   width: 42px;
@@ -634,32 +645,36 @@ footer nav .footer-social a {
   border-radius: 20px;
   display: inline-block;
 }
-/* line 485, ../../scss/default.scss */
+/* line 494, ../../scss/default.scss */
 footer nav .footer-social a:hover {
   background: #a6bf65;
 }
-/* line 489, ../../scss/default.scss */
+/* line 498, ../../scss/default.scss */
 footer nav .footer-social .facebook {
-  content: url(../images/icons/facebook-icon.png);
+  content: url("../images/landing-page/icons/facebook-icon.png");
 }
-/* line 492, ../../scss/default.scss */
+/* line 501, ../../scss/default.scss */
+footer nav .footer-social .instagram {
+  content: url("../images/landing-page/icons/instagram-icon.png");
+}
+/* line 504, ../../scss/default.scss */
 footer nav .footer-social .twitter {
-  content: url(../images/icons/twitter-icon.png);
+  content: url("../images/landing-page/icons/twitter-icon.png");
 }
-/* line 495, ../../scss/default.scss */
+/* line 507, ../../scss/default.scss */
 footer nav .footer-social .gplus {
-  content: url(../images/icons/google-icon.png);
+  content: url("../images/landing-page/icons/google-icon.png");
 }
-/* line 499, ../../scss/default.scss */
+/* line 511, ../../scss/default.scss */
 footer nav .center {
   width: 300px;
   margin: auto;
 }
-/* line 502, ../../scss/default.scss */
+/* line 514, ../../scss/default.scss */
 footer nav .center .logo-brand {
   display: block;
 }
-/* line 505, ../../scss/default.scss */
+/* line 517, ../../scss/default.scss */
 footer nav .center .footer-button {
   position: relative;
   font-size: 18px;
@@ -667,7 +682,7 @@ footer nav .center .footer-button {
   padding: 18px 80px;
   top: 50px;
 }
-/* line 515, ../../scss/default.scss */
+/* line 527, ../../scss/default.scss */
 footer nav .scroll-top {
   position: relative;
   top: -15px;
@@ -677,19 +692,19 @@ footer nav .scroll-top {
   text-decoration: none;
   color: #bababa;
 }
-/* line 523, ../../scss/default.scss */
+/* line 535, ../../scss/default.scss */
 footer nav .scroll-top .arrow-up {
   position: relative;
   top: 26px;
   background: #ddd7d4;
-  content: url("../images/icons/arrow-up.svg") no-repeat;
+  content: url("../images/landing-page/icons/arrow-up.svg") no-repeat;
   width: 60px;
   height: 58px;
   margin-left: 15px;
   border-bottom: 3px solid #c7c2bf;
   z-index: 10;
 }
-/* line 533, ../../scss/default.scss */
+/* line 545, ../../scss/default.scss */
 footer nav .scroll-top .arrow-up:hover {
   background: #c7c2bf;
 }

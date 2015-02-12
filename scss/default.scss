@@ -45,13 +45,14 @@ body {
 	@include background-size(contain);
 	position: absolute;
 	top: 0;
-	width: 100%;
-	height: 670px;
+	min-width: 100%;
+	min-height: 670px;
 }
 %headline-image{
 	@extend %background-slide;
-	background-size: 100% 690px;
-	height: 620px;
+	background-position: center middle;
+	background-size: auto 690px;
+	min-height: 620px;
 	z-index: 10;
 }
 
@@ -93,7 +94,7 @@ h2{
 
 h3{
 	@extend %headline-font;
-	font-size: 36px;
+	font-size: 32px;
 	color: #66493d;
 }
 
@@ -140,7 +141,7 @@ header{
 }
 
 .logo-brand{
-	background: url(../images/logo-palato.png);
+	background: url('../images/landing-page/logo-palato.png');
 	width: 274px;
 	height: 90px;
 	display: block;	
@@ -161,13 +162,12 @@ header{
 		top: 45%;
 	}
 	.arrow-down{
-		background: url('../images/icons/arrow-down.svg') no-repeat;
+		background: url('../images/landing-page/icons/arrow-down.svg') no-repeat;
 		position: relative;
 		display: block;
 		top: -100px;
-		width: 14px;
-		height: 8px;
-		transform: scale(4);
+		width: 60px;
+		height: 36px;
 		z-index: 1000;
 		margin: auto;
 	}
@@ -179,7 +179,7 @@ header{
 	    overflow: hidden;
 		img{
 		    position: absolute;
-		    min-width: none;
+		    min-width: 100%;
 		    top: 0;
 		    left: 0;
 		    z-index: 8;
@@ -290,35 +290,41 @@ main{
 				position: relative;
 				overflow: hidden;
 				float: left;
-				height: 600px;
+				height: 580px;
 				width: 200px;
 				padding: 15px;
 				border-right: 2px solid #e7e7e7;
-				.arrow-list-before{
+				.arrow-list{
 					position: absolute;
-					// top: -15px;
-					left: -10px;
-					content: url('../images/icons/mini-arrow-up.svg') no-repeat;
-					transform: scale(4);
-					top: 0;
+					left: 0;
+					right: 0;
+					margin-left: 92px;
+					cursor: pointer;
+					z-index: 100;
+					display: block;
 				}
-				.arrow-list-after{
-					position: absolute;
-					// top: 20px;
-					left: -10px;
-					content: url('../images/icons/mini-arrow-down.svg') no-repeat;
-					transform: scale(4);
+
+				.arrow-list.before{
+					top: 0;
+					content: url('../images/landing-page/icons/mini-arrow-up.svg') no-repeat;
+				}
+				.arrow-list.after{
 					bottom: 0;
+					content: url('../images/landing-page/icons/mini-arrow-down.svg') no-repeat;
 				}
 			}
 			.products-list{
 				@include transition(margin-top 500ms);
 				position: absolute;
+				height: 500px;
+				margin-top: 18px;
+				// top: 18px;
 				.product-thumbnail{
 					position: relative;
+					top: 0px;
 					width: 170px;
 					height: 170px;
-					margin: 0 0 35px;
+					margin-bottom: 25px;
 					display: block;
 					float: left;
 					@include border-radius(8px);
@@ -445,15 +451,18 @@ main{
 		}
 		.headline-image-1{
 			@extend %headline-image;
-			background-image: url('../images/headline-phrase-1.jpg');
+			background-image: url('../images/landing-page/headline-phrase-1.jpg');
+			background-position: center middle;
 		}
 		.headline-image-2{
 			@extend %headline-image;
-			background-image: url('../images/headline-phrase-2.jpg');
+			background-image: url('../images/landing-page/headline-phrase-2.jpg');
+			background-position: center middle;
 		}
 		.headline-image-3{
 			@extend %headline-image;
-			background-image: url('../images/headline-phrase-3.jpg');
+			background-image: url('../images/landing-page/headline-phrase-3.jpg');
+			background-position: center middle;
 		}
 	}
 }
@@ -487,13 +496,16 @@ footer{
 				} 
 			}
 			.facebook{
-				content:url(../images/icons/facebook-icon.png);
+				content:url('../images/landing-page/icons/facebook-icon.png');
+			}
+			.instagram{
+				content:url('../images/landing-page/icons/instagram-icon.png');
 			}
 			.twitter{
-				content:url(../images/icons/twitter-icon.png);
+				content:url('../images/landing-page/icons/twitter-icon.png');
 			}
 			.gplus{
-				content:url(../images/icons/google-icon.png);
+				content:url('../images/landing-page/icons/google-icon.png');
 			}
 		}
 		.center{
@@ -524,7 +536,7 @@ footer{
 				position: relative;
 				top: 26px;
 				background: #ddd7d4;
-				content: url('../images/icons/arrow-up.svg') no-repeat;
+				content: url('../images/landing-page/icons/arrow-up.svg') no-repeat;
 				width: 60px;
 				height: 58px;
 				margin-left: 15px;
