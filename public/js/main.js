@@ -7,7 +7,7 @@ $(function(){
 		// Here put the produtcs separated with commas 
 		{
 			title: "Azeite de Oliva Oito Cocina 5L",
-			image: "images/products/azeite-oito-cocina-5L.png",
+			image: "images/landing-page/products/azeite-oito-cocina-5L.png",
 			description: "Um azeite de oliva virgem desenvolvido por agrônomos, chefs de cozinha e produtores rurais para cozinheiros profissionais. Contento altos níveis de antioxidantes chamados polifenois, e um azeite de oliva para o dia a dia, indicado para fritar, marinar e até para mesa. Apresenta aromas de azeitonas frescas, levemente frutado com algumas notas de folhas. Nas boca e muito equilibrado.",
 			information: {
 				"Unidades/caixas" : "3",
@@ -20,15 +20,15 @@ $(function(){
 		},
 		{
 			title: "Azeite de Oliva Oito Cocina 1L",
-			image: "images/products/azeite-model-em-breve.jpg",
+			image: "images/landing-page/products/azeite-model-em-breve.jpg",
 			description: "Um azeite de oliva virgem desenvolvido por agrônomos, chefs de cozinha e produtores rurais para cozinheiros profissionais. Contento altos níveis de antioxidantes chamados polifenois, e um azeite de oliva para o dia a dia, indicado para fritar, marinar e até para mesa. Apresenta aromas de azeitonas frescas, levemente frutado com algumas notas de folhas. Nas boca e muito equilibrado.",
 			information: {
-				"<img src=images/icons/icon-em-breve.jpg>":""
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
 			}
 		},
 		{
 			title: "Azeite de Oliva Oito Orgânico",
-			image: "images/products/azeite-oito-organico-250.jpg",
+			image: "images/landing-page/products/azeite-oito-organico-250.jpg",
 			description: "Um azeite de oliva extra virgem oficialmente certificado orgânico e produzido com 100% de azeitonas picual nos arredores da cidade de Jaen no sul da Espanha. E o resultado de colheitas no mês de janeiro. Um azeite de oliva aromático, possui notas de suco fresco de azeitonas,figueiras e orvalho.",
 			information: {
 				"Unidades/caixas": "15",
@@ -41,7 +41,7 @@ $(function(){
 		},
 		{
 			title: "Azeite de oliva Oito Seleccion Cuquillo",
-			image: "images/products/azeite-oito-sellecion-cuquillo-250.jpg",
+			image: "images/landing-page/products/azeite-oito-sellecion-cuquillo-250.jpg",
 			description: "Um azeite de oliva extra virgem produzido 100% com as raras azeitonas cultivadas na região central espanhola de Múrcia, chamadas azeitonas Cuquillo. E um azeite de oliva verde, com notas de alcachofras maduras e azeitonas avermelhadas. Ideal para saladas, peixes e para finalização. Ligeiramente amargo.",
 			information: {
 				"Unidades/caixas": "15",
@@ -54,7 +54,7 @@ $(function(){
 		},
 		{
 			title: "Azeite de Oliva Oito Seleccion Colheita Verde",
-			image: "images/products/azeite-oito-sellecion-verde-250.png",
+			image: "images/landing-page/products/azeite-oito-sellecion-verde-250.png",
 			description: "Um azeite de oliva extra virgem sensacional, menos filtrado, produzido principalmente com azeitonas da variedade Hojiblanca cultivadas na região de Cordoba na Espanha. Apresentando um frutado intenso com notas de frutas maduras, possui aromas de maças, banana e amêndoas. Na boca e equilibrado, cremoso e persistente.",
 			information: {
 				"Unidades/caixas": "15",
@@ -66,8 +66,8 @@ $(function(){
 			}
 		},
 		{
-			title: "Azeite de Oliva Oito Seleccion Colheita de Inverno",
-			image: "images/products/azeite-oito-sellecion-inverno-250.png",
+			title: "Azeite Oito Seleccion Colheita de Inverno",
+			image: "images/landing-page/products/azeite-oito-sellecion-inverno-250.png",
 			description: "Azeite de oliva extra virgem extraordinário, apresentado pela primeira vez no Brasil. As deliciosas azeitonas Manzanilla Carcerenha. Produzido para participar de concursos sensoriais em Cacere na Espanha, possui notas de casca de banana, tomates e ervas.",
 			information: {
 				"Unidades/caixas": "15",
@@ -80,14 +80,14 @@ $(function(){
 		},
 		{
 			title: "Azeite de Oliva Oito Seleccion Portugal",
-			image: "images/products/azeite-model-em-breve.jpg",
-			description: "<img src=images/icons/icon-em-breve.jpg>",
+			image: "images/landing-page/products/azeite-model-em-breve.jpg",
+			description: "<img src=images/landing-page/icons/icon-em-breve.jpg>",
 			information: {			
 			}
 		},
 		{
 			title: "Azeite de Oliva Oito Andalucia",
-			image: "images/products/azeite-oito-andalucia-1L.jpg",
+			image: "images/landing-page/products/azeite-oito-andalucia-1L.jpg",
 			description: "Um azeite de oliva clássico espanhol, produzido com as azeitonas Picual, Hojiblanca e um toque de Arbequina. Contém notas de amendoas e azeitonas molhadas. Na boca é persistente, vegetal e longo.",
 			information: {
 				"Unidades/caixas": "12",
@@ -100,7 +100,7 @@ $(function(){
 		},
 		{
 			title: "Azeite de Oliva Oito Mini",
-			image: "images/products/azeite-oito-mini-20.png",
+			image: "images/landing-page/products/azeite-oito-mini-20.png",
 			description: "Um azeite de oliva desenvolvido especialmente para hoteis e serviços de entrega. Um monovarietal produzido com 100% com azeitonas Hojiblanca. Possui uma intensidade média e a presença de notas de folhas. Delicioso e equilibrado na boca.",
 			information: {
 				"Unidades/caixas": "266",
@@ -110,10 +110,10 @@ $(function(){
 				"Comprimento": "2cm",
 				"Caixas / pallet": "80",
 			}
-		}	
+		},	
 		// {
 		// 	title: "Arroz Espanhol Oito Bomba",
-		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	image: "images/landing-page/products/azeite-oito-mini-20.png",
 		// 	description: "",
 		// 	information: {
 		// 		"Unidades/caixas": "3",
@@ -126,90 +126,68 @@ $(function(){
 		// },
 		// {
 		// 	title: "Farinha de Amendôas Espanholas Oito",
-		// 	image: "images/products/azeite-model-em-breve.jpg",
+		// 	image: "images/landing-page/products/azeite-model-em-breve.jpg",
 		// 	description: "",
 		// 	information: {
-		// 		"<img src=images/icons/icon-em-breve.jpg>":""			
+		// 		"<img src=images/landing-page/icons/icon-em-breve.jpg>":""			
 		// 	}
 		// },
-		// {
-		// 	title: "Fideos Tradicionais Espanhois Oito",
-		// 	image: "images/products/azeite-oito-mini-20.png",
-		// 	description: "",
-		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "14.2Kg",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
-		// 	}
-		// },
-		// {
-		// 	title: "Nozes Pecan Oito",
-		// 	image: "images/products/nozes-pecan.jpg",
-		// 	description: "",
-		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "500g",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
-		// 	}
-		// },
-		// {
-		// 	title: "Baunilha de Madagascar",
-		// 	image: "images/products/azeite-oito-mini-20.png",
-		// 	description: "",
-		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "14.2Kg",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
-		// 	}
-		// },
-		// {
-		// 	title: "Baunilha de Uganda",
-		// 	image: "images/products/azeite-oito-mini-20.png",
-		// 	description: "",
-		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "14.2Kg",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
-		// 	}
-		// },
+		{
+			title: "Queijos Artesanais do Brasil",
+			image: "images/landing-page/products/queijos-artesanais-do-brasil.jpg",
+			description: "11 diferentes tipos de queijos caseiros, todos executados pelo grande Mestre queijero do Rio de Janeiro. Queijos Muito aromáticos, e com toques sutis no sabor que vão de lácteos fermentados, iogurte, coalhada e ervas frescas do campo a sabores levemente picante e adocicado.  ",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		},
+		{
+			title: "Fideos Tradicionais Espanhois Oito",
+			image: "images/landing-page/products/oito-fideos.png",
+			description: "Massa de Sêmula de trigo durum espanhol de Valencia (Espanha).",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		},
+		{
+			title: "Nozes Pecan Oito",
+			image: "images/landing-page/products/nozes-pecan.jpg",
+			description: "Aroma doce e intenso, tem um amargor muito leve, não tão forte quanto a noz clássica. Uma das nozes mais utilizadas pelo seu valor organoléptico.",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		},
+		{
+			title: "Baunilha de Madagascar",
+			image: "images/landing-page/products/baunilha.png",
+			description: "Cremosa, úmida e muito aromática. Esta fava possui características doces e intensas com um perfume único com notas de banana.",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		},
+		{
+			title: "Baunilha de Uganda",
+			image: "images/landing-page/products/baunilha.png",
+			description: "Cremosa, úmida e muito aromática. Esta fava possui características doces e intensas com um perfume único com notas de banana. ",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		},
 		// {
 		// 	title: "Garrafas de Mesa Oito, Serigrafadas",
-		// 	image: "images/products/azeite-oito-mini-20.png",
+		// 	image: "images/landing-page/products/azeite-oito-mini-20.png",
 		// 	description: "",
 		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "14.2Kg",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
+		// 		"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
 		// 	}
 		// },
-		// {
-		// 	title: "Vieras Nativas da Ilha Grande / RJ",
-		// 	image: "images/products/vieiras-nativas.jpg",
-		// 	description: "",
-		// 	information: {
-		// 		"Unidades/caixas": "3",
-		// 		"Peso": "14.2Kg",
-		// 		"Altura": "36.5cm",
-		// 		"Largura": "47cm",
-		// 		"Comprimento": "16.5cm",
-		// 		"Caixas": "32",
-		// 	}
-		// }
+		{
+			title: "Vieras Nativas da Ilha Grande / RJ",
+			image: "images/landing-page/products/vieiras-nativas.jpg",
+			description: "Vieiras frescas e suculentas, de sabor adocicado e aroma suave de mar de Baia de Ilha Grande",
+			information: {
+				"<img src=images/landing-page/icons/icon-em-breve.jpg>":""
+			}
+		}
 
 
 
@@ -255,16 +233,15 @@ $(function(){
 		$productsList.append($thumb);
 		$productsContent.append($product);
 
-		marginTop = (1-i)*209;
+		marginTop = (1-i)*198;
 
 		if(i == 0) {
 			marginTop = 0;
 		} else if (i == products.length - 1) {
-			marginTop = marginTop + 209;
+			marginTop = marginTop + 198;
 		}
 
-		$thumb.click(function(e){
-			e.preventDefault();
+		product.select = function(){
 			$productsContent.children().hide();
 			$product.show();
 
@@ -272,9 +249,29 @@ $(function(){
 			$thumb.addClass('active');
 
 			$productsList.css('margin-top', marginTop);
+		}
+
+		$thumb.click(function(e){
+			e.preventDefault();
+			product.select();
 		});
 
 		if(i == 0) $thumb.click();
+
+	});
+
+	function select(i){
+		if(products[i]){
+			products[i].select();
+		}
+	};
+
+	$(".arrow-list.before").click(function(){
+		select($(".product-thumbnail.active").index()-1);
+	});
+
+	$(".arrow-list.after").click(function(){
+		select($(".product-thumbnail.active").index()+1);
 	});
 
 	// Melhorar isso para n nao depender do tamanho da tela
@@ -312,7 +309,6 @@ $(function(){
 
 	$('.more-details-button').click(function(){
 		$('.tecnique-information').fadeToggle();
-		$('.more-details-button').css({'content':'- Detalhes'});
 		return false;
 	});
 });
