@@ -61,9 +61,9 @@ a img {
   display: block;
   width: auto;
   height: auto;
+  -webkit-transition: all 5s ease 0s;
   transition: all 5s ease 0s;
-    margin: auto;
-}
+  margin: auto !important;
 }
 
 /* line 116, ../../../../../../../../../.rvm/gems/ruby-2.1.1/gems/compass-core-1.0.1/stylesheets/compass/reset/_utilities.scss */
@@ -185,12 +185,12 @@ h1 span, h2 span, main .content.products .content-slider .products-content h4 {
 /* line 71, ../../scss/default.scss */
 h1 {
   text-shadow: rgba(255, 255, 255, 0.5) 0px 1px 0px, rgba(0, 0, 0, 0.7) 0px 1px 4px;
-  font-size: 52px;
+  font-size: 44px;
   line-height: 1.0em;
 }
 /* line 76, ../../scss/default.scss */
 h1 span {
-  font-size: 40px;
+  font-size: 38px;
 }
 
 /* line 82, ../../scss/default.scss */
@@ -242,7 +242,7 @@ header {
 }
 /* line 123, ../../scss/default.scss */
 header nav {
-  margin: 70px 20px;
+  margin: 40px 20px;
   font-family: 'Museo500Regular';
   font-size: 16px;
   float: right;
@@ -281,11 +281,11 @@ header nav a:hover {
 .slider h1 {
   position: relative;
   z-index: 1000;
-  top: 66%;
+  top: 62%;
 }
 /* line 164, ../../scss/default.scss */
 .slider .arrow-down {
-  background: url("../images/landing-page/Palato-logo-main.pngn.svg") no-repeat;
+  content: url("../images/landing-page/icons/arrow-up.svg") no-repeat;
   position: relative;
   display: block;
   top: -100px;
@@ -333,6 +333,10 @@ main .content-separator {
   left: 0;
   right: 0;
   z-index: 1000;
+  top: -92px;
+}
+main .content-separator img {
+
 }
 /* line 208, ../../scss/default.scss */
 main .content-separator .triangles .triangle-1, main .content-separator .triangles .triangle-2 {
@@ -404,16 +408,17 @@ main .content {
 }
 /* line 270, ../../scss/default.scss */
 main .content .content-title {
-  margin-bottom: 70px;
-  height: 0;
-  border-top: solid 2px #e7e7e7;
+
 }
 /* line 275, ../../scss/default.scss */
-main .content .content-title h3 {
-  background: #fff;
+main .content .content-title {
   width: 300px;
-  margin: -20px auto;
-  padding: 0 20px 20px;
+  padding: 12px;
+  display: block;
+  text-align: center;
+  margin: auto;
+  border: solid 5px #5f4a3b ;
+  margin-bottom: 30px;
 }
 /* line 282, ../../scss/default.scss */
 main .content .content-resume {
@@ -446,12 +451,12 @@ main .content.products .content-slider .products-slider .arrow-list {
 /* line 307, ../../scss/default.scss */
 main .content.products .content-slider .products-slider .arrow-list.before {
   top: 0;
-  content: url("../images/landing-page/Palato-logo-main.pngw-up.svg") no-repeat;
+  content: url("../images/landing-page/arrow-up.svg") no-repeat;
 }
 /* line 311, ../../scss/default.scss */
 main .content.products .content-slider .products-slider .arrow-list.after {
   bottom: 0;
-  content: url("../images/landing-page/Palato-logo-main.pngw-down.svg") no-repeat;
+  content: url("../images/landing-page/arrow-down.svg") no-repeat;
 }
 /* line 316, ../../scss/default.scss */
 main .content.products .content-slider .products-list {
@@ -627,9 +632,15 @@ main .headline .headline-image-3 {
   background-image: url("../images/landing-page/headline-oito-3.jpg");
   background-position: center middle;
 }
-main .headline .headline-image-4 {
-  background-image: url("../images/landing-page/Palato-logo-main.png-3.jpg");
-  background-position: center middle;
+
+main .headline:before{
+  content: url('../images/landing-page/Palato-tab.png');
+  position: absolute;
+  text-align: center;
+  top: -46px;
+  left: 0;
+  right: 0;
+  z-index: 100;
 }
 
 /* line 470, ../../scss/default.scss */
@@ -647,7 +658,7 @@ footer nav {
 /* line 478, ../../scss/default.scss */
 footer nav .footer-social {
   float: left;
-  margin-top: 115px;
+  margin-top: 152px;
   margin-left: 20px;
 }
 /* line 482, ../../scss/default.scss */
@@ -660,6 +671,7 @@ footer nav .footer-social h5 {
 /* line 488, ../../scss/default.scss */
 footer nav .footer-social a {
   background: #ddd7d4;
+  /*position: absolute;*/
   width: 42px;
   height: 42px;
   -moz-border-radius: 20px;
@@ -667,25 +679,33 @@ footer nav .footer-social a {
   border-radius: 20px;
   display: inline-block;
 }
+footer nav .footer-social span {
+  width: 42px;
+  height: 42px;
+}
 /* line 494, ../../scss/default.scss */
 footer nav .footer-social a:hover {
-  background: #a6bf65;
+  background-color: #a6bf65;
 }
 /* line 498, ../../scss/default.scss */
 footer nav .footer-social .facebook {
-  content: url("../images/landing-page/icons/facebook-icon.png");
+  background: url("../images/landing-page/icons/facebook-icon.png");
+  position: absolute;
 }
 /* line 501, ../../scss/default.scss */
 footer nav .footer-social .instagram {
-  content: url("../images/landing-page/icons/instagram-icon.png");
+  background: url("../images/landing-page/icons/instagram-icon.png");
+  position: absolute;
 }
 /* line 504, ../../scss/default.scss */
 footer nav .footer-social .twitter {
-  content: url("../images/landing-page/Palato-logo-main.pngcon.png");
+  background: url("../images/landing-page/twitter-icon.png");
+  position: absolute;
 }
 /* line 507, ../../scss/default.scss */
 footer nav .footer-social .gplus {
-  content: url("../images/landing-page/Palato-logo-main.pngon.png");
+  content: url("../images/landing-page/google-icon.png");
+  position: absolute;
 }
 /* line 511, ../../scss/default.scss */
 footer nav .center {
@@ -695,6 +715,7 @@ footer nav .center {
 /* line 514, ../../scss/default.scss */
 footer nav .center .logo-brand {
   display: block;
+  margin-left: 44px;
 }
 /* line 517, ../../scss/default.scss */
 footer nav .center .footer-button {
@@ -715,68 +736,36 @@ footer nav .scroll-top {
   color: #bababa;
 }
 /* line 535, ../../scss/default.scss */
-footer nav .scroll-top .arrow-up {
+footer nav .scroll-top span {
   position: relative;
   top: 26px;
   background: #ddd7d4;
-  content: url("../images/landing-page/icons/arrow-up.svg") no-repeat;
+  display: inline-block;
   width: 60px;
   height: 58px;
   margin-left: 15px;
   border-bottom: 3px solid #c7c2bf;
   z-index: 10;
 }
+footer nav .scroll-top .arrow-up {
+  background: url("../images/landing-page/icons/arrow-up.svg") center center no-repeat;
+  display: block;
+  width: 60px;
+  height: 58px;
+  z-index: 10;
+}
+
 /* line 545, ../../scss/default.scss */
-footer nav .scroll-top .arrow-up:hover {
+footer nav .scroll-top span:hover {
   background: #c7c2bf;
 }
 
-.boxed {
-  border: solid 5px #5f4a3b ;
-  background-color: #f9f9f9;
-  display: table;
-  padding: 4px;
-  margin: 4px 4px 25px 509px;
-}
-
-.boxed2 {
-  border: solid 5px #5f4a3b ;
-  background-color: #f9f9f9;
-  display: table;
-  padding: 4px;
-  margin: 4px 4px 25px 493px;
-}
-
-.boxed3 {
-  border: solid 5px #5f4a3b ;
-  background-color: #f9f9f9;
-  display: table;
-  padding: 4px;
-  margin: 55px 4px 25px 523px;
-}
-
-.boxed4 {
-  border: solid 5px #5f4a3b ;
-  background-color: #f9f9f9;
-  display: table;
-  padding: 4px;
-  margin: 55px 4px 25px 485px;
-}
-
 hr { 
-  width:4%; 
+  width:20px; 
   height:3px;
   background:#5f4a3b;
   margin:5px 0px 20px 592px;
 }
-
-hr { 
-  width:4%; 
-  height:3px;
-  background:#5f4a3b;
-  margin:5px 0px 20px 592px;
-}
-
 
 
 img.center {

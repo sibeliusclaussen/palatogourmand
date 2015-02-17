@@ -1,0 +1,1016 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"paddin",
+				"padding"
+			],
+			[
+				"pa",
+				"padding"
+			],
+			[
+				"fon",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"mar",
+				"margin-top"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"pad",
+				"padding"
+			],
+			[
+				"in",
+				"inline"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"background",
+				"background-position"
+			],
+			[
+				"backgroun",
+				"background"
+			],
+			[
+				"html",
+				"html	html"
+			],
+			[
+				"paddi",
+				"padding"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"ba",
+				"background"
+			],
+			[
+				"brand",
+				"brand-logo"
+			],
+			[
+				"navigation",
+				"navigation-guide"
+			],
+			[
+				"bulle",
+				"bullet-sprite"
+			],
+			[
+				"bullet",
+				"bullet"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bg",
+				"bgNum"
+			],
+			[
+				"doc",
+				"document"
+			],
+			[
+				"blo",
+				"block"
+			],
+			[
+				"bran",
+				"brand-logo"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"style",
+				"font-style"
+			],
+			[
+				"boer",
+				"border-bottom-right-radius"
+			],
+			[
+				"fonts",
+				"font-size"
+			],
+			[
+				"text",
+				"text-decoration"
+			],
+			[
+				"bor",
+				"border-radius"
+			],
+			[
+				"te",
+				"text-indent"
+			],
+			[
+				"bagr",
+				"background"
+			],
+			[
+				"tr",
+				"transparent"
+			],
+			[
+				"marg",
+				"margin-top"
+			],
+			[
+				"he",
+				"height"
+			],
+			[
+				"le",
+				"left"
+			],
+			[
+				"to",
+				"top"
+			],
+			[
+				"ab",
+				"absolute"
+			],
+			[
+				"tex",
+				"text-transform"
+			],
+			[
+				"marin",
+				"margin-top"
+			],
+			[
+				"pd",
+				"padding-right"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"impot",
+				"important"
+			],
+			[
+				"padd",
+				"padding"
+			],
+			[
+				"bo",
+				"bottom"
+			],
+			[
+				"Padd",
+				"padding-bottom"
+			],
+			[
+				"tb",
+				"table-cell"
+			],
+			[
+				"tabl",
+				"table-cell"
+			],
+			[
+				"ta",
+				"table-row"
+			],
+			[
+				"title",
+				"title	Attr"
+			],
+			[
+				"icon-",
+				"icon-product"
+			],
+			[
+				"small-",
+				"small-8"
+			],
+			[
+				"co",
+				"content"
+			],
+			[
+				"icon-edit",
+				"icon-edit-art-blue"
+			],
+			[
+				"t",
+				"table-column-group"
+			],
+			[
+				"tab",
+				"table-row"
+			],
+			[
+				"se",
+				"section	<section>"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"m",
+				"margin-bottom"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"li",
+				"line-height"
+			],
+			[
+				"margi",
+				"margin-top"
+			],
+			[
+				"b",
+				"background"
+			],
+			[
+				"mari",
+				"margin-top"
+			],
+			[
+				"a",
+				"a	<a>"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"wd",
+				"width"
+			],
+			[
+				"import",
+				"important"
+			],
+			[
+				"min",
+				"min-width"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"bac",
+				"background"
+			],
+			[
+				"margint",
+				"margin-left"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"h",
+				"height"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"marign",
+				"margin-left"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"cur",
+				"cursor"
+			],
+			[
+				"backgrou",
+				"background"
+			],
+			[
+				"fl",
+				"float"
+			],
+			[
+				"z",
+				"z-index"
+			],
+			[
+				"p",
+				"padding"
+			],
+			[
+				"d",
+				"div	Tag"
+			],
+			[
+				"op",
+				"opacity"
+			],
+			[
+				"ov",
+				"overflow"
+			],
+			[
+				"pos",
+				"position"
+			],
+			[
+				"mous",
+				"mousedown	mousedown"
+			],
+			[
+				"menuI",
+				"menuInner"
+			],
+			[
+				"menu",
+				"menuInner"
+			],
+			[
+				"add",
+				"addClass"
+			],
+			[
+				"border-top",
+				"border-top-left-radius"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"f",
+				"font-size"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"wi",
+				"width"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+			[
+				"snip",
+				"Snippet: html"
+			],
+			[
+				"snipp",
+				"Snippet: html"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"report",
+				"SublimeLint: Report (Open Files)"
+			],
+			[
+				"linter",
+				"SublimeLinter: Show Errors on Save"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"html",
+				"Snippet: html"
+			],
+			[
+				"hot",
+				"HTML: Encode Special Characters"
+			],
+			[
+				"htm",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set ",
+				"Set Syntax: HTML"
+			],
+			[
+				"git ",
+				"Git: Commit"
+			],
+			[
+				"git a",
+				"Git: Add..."
+			],
+			[
+				"git",
+				"Git: Commit"
+			],
+			[
+				"comm",
+				"Git: Commit history"
+			],
+			[
+				"gi",
+				"Git: Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"intal",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"LiveStyle: Install WebKit extension"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"set css",
+				"Set Syntax: CSS"
+			],
+			[
+				"intall",
+				"Package Control: Install Package"
+			],
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"wra",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set haml",
+				"Set Syntax: Ruby Haml"
+			],
+			[
+				"wr",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set cs",
+				"Set Syntax: CSS"
+			],
+			[
+				"se",
+				"Set Syntax: HTML"
+			],
+			[
+				"wrap",
+				"HTML: Wrap Selection With Tag"
+			],
+			[
+				"set syntax : ht",
+				"Set Syntax: HTML"
+			]
+		],
+		"width": 575.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"open /etc/apache2/httpd.conf",
+			"ls",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/sibeliusclaussen/Copy/Works/2014/Palato-Gourmand/landing-page-palato"
+	],
+	"file_history":
+	[
+		"/Users/sibeliusclaussen/Downloads/index.html",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-staging/js/main.js",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/css/agency.css",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/index.html",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/css/main.css",
+		"/Users/sibeliusclaussen/experts/bower_components/bootstrap/less/forms.less",
+		"/Users/sibeliusclaussen/experts/bower_components/bootstrap/less/mixins/grid-framework.less",
+		"/Users/sibeliusclaussen/experts/index.html",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/package.json",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/node_modules/grunt-contrib-sass/Gruntfile.js",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/http-server/bin/http-server",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/css/bootstrap.css",
+		"/Users/sibeliusclaussen/Sites/fazenda-culinaria-coming-soon/node_modules/grunt/lib/grunt.js",
+		"/Users/sibeliusclaussen/Google Drive/Consultoria/Juliana Spinneti/Som-do-Morro/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Consultoria/Thyago/final/g2/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Consultoria/Thyago/v2/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V4/public/js/main.js",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3.1/GOU.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V4/public/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/public/css/style.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/public/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/public/css/main.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/public/js/main.js",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/index.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/GOU_files/Droid-Sans-Mono.woff",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/GOU_files/public/css/style.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/GOU.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/GOU_files/web-fonts.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3.1/GOU_files/main.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/V3-2014-11-19/V3/GOU_files/public/css/fonts.scss",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3.1/GOU_files/public/css/fonts.css",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3.1/GOU_files/public/css/fonts.scss",
+		"/Users/sibeliusclaussen/Copy/Works/2014/Palato Gourmand/Landing Page/Landing-Page-Palato/Implementação/scss/default.scss",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/V3/GOU.html",
+		"/Users/sibeliusclaussen/Google Drive/Freelancers/Grupo GOU/Implementations/GOUv2.json",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/foundation.min.css",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/app.css",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil.html",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/.subl8be.tmp",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/.subl1eb.tmp",
+		"/Users/sibeliusclaussen/Dropbox/Works/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/app (Cópia em conflito de Sibelius Claussen 2014-06-25).css",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/assets/stylesheets/app.css",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/new.html.erb",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/cadastro.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Histórico/footer/index.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/css/app.css",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Blog (HM)/Código modificado/style.css",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Histórico/footer/css/stylesheet.css",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Blog (HM)/Código modificado/footer.php",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Blog (HM)/Código modificado/header.php",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/public/404.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/public/422.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/public/500.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/404.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/footer-error.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Blog (HM)/Código modificado/default.php",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/controllers/profile_controller.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/activities/_activities.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/desafio-index.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/desafio-rules.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/contests/_sidebar.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/contests/_contest.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/helpers/profile_helper.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/Procfile",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/controllers/password_resets_controller.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/arts/show.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/assets/_form.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil-criacao-up.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/download/_art_files_list.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/download/new.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/favorite_categories.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/profile/_feed.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/layouts/_footer.html.erb",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/layouts/application.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/categories/show.html.erb",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil-follow.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil-feed.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/index.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/profile/_empty_feed.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/contests/_partners.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/forgot.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/passo-1.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/_form.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/inputs/image_preview_input.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/knob.js.erb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/show.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/arts/_modal-form.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/perfil-curator-1.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/layouts/_header.html.erb",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-arrow-right-w.svg",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/edit-profile.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/layouts/_notifications.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/search/index.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/tags/show.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/arts/_art.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/assets/javascripts/jquery.knob.js",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/js/jquery.knob.js",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/js/foundation/foundation.tooltip.js",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/users/style_test.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/config/initializers/requires.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/designoteca/config/initializers/requires.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/assets/javascripts/foundation/foundation.equalizer.js",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/README.md",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/Rakefile",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/comments/_comments.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/jQuery-Knob-master/index.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/arts/index.html.erb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/profile/_users_list.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/download/show.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/activities/index.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/pagamento.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/js/foundation/foundation.js",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-project-files.svg",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/edit-pagamentos.html",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/assets/stylesheets/foundation_and_overrides.scss",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/account/_form.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/config/initializers/simple_form.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/spec/routing/fabrications_routing_spec.rb",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/profile/_profile_header.html.haml",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-mycreations.svg",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/inputs/collection_select_input.rb",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/design-page.html",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-comment-empty.svg",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-comment-full.svg",
+		"/C/Users/Sibelius/Dropbox/Letsevo/LetsevoShare-ReDesignoteca/Design (SC)/Designoteca-3.0/img/icons/icon-edit-art-grey.svg",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/kaminari/_paginator.html.haml",
+		"/C/Users/Sibelius/Documents/Aptana Studio 3 Workspace/designoteca/app/views/kaminari/_page.html.haml"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			"<open folders>",
+			"C:\\Users\\Sibelius\\Dropbox\\Letsevo\\LetsevoShare-ReDesignoteca\\Design (SC)\\Designoteca-3.0,<open folders>",
+			"C:\\Users\\Sibelius\\Dropbox\\Letsevo\\LetsevoShare-ReDesignoteca\\Design (SC)\\Designoteca-3.0",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"mc-em",
+			"hr",
+			";\n",
+			"arrow",
+			"section",
+			"hr",
+			"brand",
+			"class=\"brand-second\"",
+			"section",
+			"class=\"brand-first\"",
+			"header",
+			"clear",
+			";\n",
+			"font-famil",
+			"font",
+			"Montserrat,\"Helvetica Neue\",Helvetica,Arial,sans-serif;",
+			"6",
+			"janeiro",
+			"abril",
+			"settings",
+			"Settings",
+			"settings",
+			"Settings",
+			"settings",
+			"messages",
+			"profile",
+			"Profile",
+			"profile",
+			"home",
+			"Home",
+			"home",
+			"Home",
+			"home",
+			"main",
+			"main ",
+			"rounded",
+			"btn",
+			"button",
+			"../",
+			"10",
+			".active",
+			".actvie",
+			"active",
+			".active",
+			"$(this).hide();\n      });\n",
+			"title-preview",
+			"contain",
+			"cover",
+			"onload=\"switchBgBody()\"",
+			"cover",
+			"2.4",
+			"2",
+			"rotate(30deg)",
+			"382",
+			"200px",
+			";*/\n",
+			"<div class=\"componentContainer balls\" style=\"top: 240px; left: 740px; -webkit-transform:   ; -moz-transform: ; transform: ; width: 142.9px; height: 138.77px;\">\n                <div class=\"transformContainer\" style=\"-webkit-transform: scale(, );\n                -moz-transform: scale(, );\n                transform: scale(, )\">\n                  <svg fill=\"#eeeeee\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"30\"></circle></svg>\n                </div>\n              </div>",
+			"3",
+			"4",
+			"transform:scale(2.5);",
+			"1.16",
+			"antialias",
+			"5",
+			"<svg fill=\"#eeeeee\" xmlns=\"http://www.w3.org/2000/svg\" version=\"1.1\" preserveAspectRatio=\"none\" viewBox=\"0 0 80 80\"><circle cx=\"40\" cy=\"40\" r=\"40\"></circle></svg>",
+			"../",
+			"./public",
+			"public",
+			"u65BKsv.png",
+			"GOU_files",
+			"gou_files",
+			"themedArea",
+			"1.36",
+			"100px",
+			"opacity",
+			"ball",
+			"balls",
+			"1.36",
+			".16",
+			"footer",
+			"#footer",
+			"footer",
+			"small",
+			"edit",
+			"button",
+			"edit",
+			"bt",
+			"background-color: rgba(96,96,96,0.8);",
+			"logged-style",
+			"logged-like",
+			"fc",
+			"thumb",
+			"sub",
+			" large-3 right",
+			"column",
+			"designs",
+			"h1",
+			"small",
+			".row",
+			"sidebar",
+			"hr",
+			"<img src=\"img/avatar-user.jpg\" width=\"40\" height=\"40\" class=\"de-user left\"></img>",
+			"<hgroup>\n                        <h5>Título do Projeto</h5>\n                        <span>por<a href=\"#\" class=\"author\">Sibelius Claussen</a></span>\n                      </hgroup>",
+			"small",
+			"4",
+			"small-4",
+			"columns",
+			"padding-left:",
+			"padding-",
+			"foo",
+			"input",
+			"label",
+			"#social-join",
+			"font-family",
+			"font-fa",
+			"font-fami",
+			"; ",
+			"font-family: arial;",
+			"list",
+			"uns",
+			"                        <div class=\"overlay\"></div>",
+			".container",
+			"container",
+			"font-fami",
+			"font-family: \"Helvetica Neue\", \"Helvetica\", Helvetica, Arial, sans-serif;",
+			"=\"\"",
+			".container",
+			"../image",
+			"footer"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			";\n",
+			"  \n"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 30.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.git":
+	{
+		"height": 100.0
+	},
+	"project": "palato-gourmand-sc.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"profile_contr",
+				"designoteca\\app\\controllers\\profile_controller.rb"
+			],
+			[
+				"form",
+				"designoteca\\app\\views\\assets\\_form.html.haml"
+			],
+			[
+				"_form",
+				"designoteca\\app\\views\\users\\config\\_form.html.haml"
+			],
+			[
+				"art_file_list",
+				"designoteca\\app\\views\\download\\_art_files_list.haml"
+			],
+			[
+				"payment",
+				"designoteca\\app\\views\\download\\_payment_form.haml"
+			],
+			[
+				"422",
+				"designoteca\\public\\422.html"
+			],
+			[
+				"500",
+				"designoteca\\public\\500.html"
+			],
+			[
+				"404",
+				"designoteca\\public\\404.html"
+			],
+			[
+				"searc",
+				"designoteca\\app\\controllers\\search_controller.rb"
+			],
+			[
+				"tag_contro",
+				"designoteca\\app\\controllers\\tags_controller.rb"
+			],
+			[
+				"viesreport",
+				"designoteca\\app\\views\\report_mailer\\report_art.text.erb"
+			],
+			[
+				"paginator",
+				"designoteca\\app\\views\\kaminari\\_paginator.html.haml"
+			],
+			[
+				"http",
+				"designoteca\\db\\migrate\\20120827192843_add_attachment_sponsor_logo_to_partner.rb"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\Users\\Sibelius\\Dropbox\\LayerVault\\Responde Aí\\Implementação\\detonated-project.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 246.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
